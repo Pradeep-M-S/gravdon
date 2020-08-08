@@ -61,7 +61,7 @@ const Hero = ({
               data-reveal-delay="200"
             >
               Gravdon
-              <span className="text-color-primary"> E-Sports</span>
+              <span className="text-color-primary"> ESports</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
