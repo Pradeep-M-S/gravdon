@@ -56,13 +56,13 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1
+            <h2
               className="mt-0 mb-16 reveal-from-bottom"
               data-reveal-delay="200"
             >
               Gravdon
-              <span className="text-color-primary"> ESports</span>
-            </h1>
+              <span className="text-color-primary"> E-Sports</span>
+            </h2>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
                 Play PUBG and your favourite games and Win Prices daily.
