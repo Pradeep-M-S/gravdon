@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
-import ButtonGroup from "../elements/ButtonGroup";
 import Button from "../elements/Button";
 import Image from "../elements/Image";
 import Modal from "react-modal";
@@ -61,11 +60,17 @@ const Hero = ({
               className="container-xs text-left
             "
             >
-              <p className="m-0 mb-32  reveal-from-top" data-reveal-delay="800">
+              <p
+                style={{
+                  color: "white",
+                }}
+                className="m-0 mb-32 reveal-from-top"
+                data-reveal-delay="800"
+              >
                 We are a newly initiated company for PUBG paid tournaments.
               </p>
               <div
-                style={{ textAlign: "center" }}
+                style={{ textAlign: "center", color: "white" }}
                 className="m-0 text-sm mb-16 text-left reveal-from-top"
                 data-reveal-delay="800"
               >
@@ -131,6 +136,7 @@ const Hero = ({
                     zIndex: "10",
                     border: "none",
                     borderRadius: "20px",
+                    color: "white",
                   },
                 }}
                 isOpen={modalISOpen}
@@ -204,6 +210,7 @@ const Hero = ({
                       zIndex: "10",
                       border: "none",
                       borderRadius: "20px",
+                      color: "white",
                     },
                   }}
                   isOpen={modal2ISOpen}
@@ -327,15 +334,43 @@ const Hero = ({
             data-reveal-value="20px"
             data-reveal-delay="800"
           >
-            <a>
-              <Image
-                className="has-shadow"
-                src={require("./../../assets/images/example.png")}
-                alt="Hero"
-                width={896}
-                height={504}
-              />
-            </a>
+            <h2
+              className="mt-0 mb-16 reveal-from-bottom"
+              data-reveal-delay="200"
+            >
+              Types of
+              <span className="text-color-primary"> Matches </span>
+            </h2>
+            <div
+              style={{ textAlign: "center", color: "white" }}
+              className="m-0 text-xs mb-16 text-left"
+            >
+              We conduct <b>3</b> types of matches
+            </div>
+            <Image
+              style={{ display: "block" }}
+              className="has-shadow"
+              src={require("./../../assets/images/1.png")}
+              alt="Hero"
+              width={896}
+              height={504}
+            />{" "}
+            <br />
+            <Image
+              className="has-shadow"
+              src={require("./../../assets/images/2.png")}
+              alt="Hero"
+              width={896}
+              height={504}
+            />{" "}
+            <br />
+            <Image
+              className="has-shadow"
+              src={require("./../../assets/images/3.png")}
+              alt="Hero"
+              width={896}
+              height={504}
+            />
           </div>
         </div>
       </div>
