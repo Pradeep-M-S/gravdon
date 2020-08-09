@@ -230,7 +230,7 @@ const Hero = ({
               // href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
               className="button button-primary m-4 hover:bg-red-700 button-sm"
             >
-              Book my Slot - Mon (12-08-20)
+              Book my Slot
             </a>
             <Modal
               style={{
@@ -294,20 +294,59 @@ const Hero = ({
                     00-20 I ₹65 ₹0 40 20-30 I ₹55 ₹10 40 30-35 I ₹50 ₹15 40 35+
                     I ₹45 ₹20
                   </div>{" "} */}
-              <a
-                href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
-                className="button button-primary m-4 hover:bg-red-700 button-sm"
-              >
-                Book my Slot - Mon (12/08/20)
-              </a>
-              <Button
-                onClick={() => setModal2IsOpen(false)}
-                // href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
-                className="button button-primary m-4 hover:bg-red-700 button-sm"
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  placeItems: "center",
+                }}
               >
                 {" "}
-                &#10094; Back
-              </Button>
+                <a
+                  href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
+                  className="button button-primary m-4 hover:bg-red-700 button-sm"
+                >
+                  Mon (12-08-20)
+                </a>{" "}
+                <div
+                  style={{ textAlign: "center", fontSize: ".9rem" }}
+                  className="m-0 text-xs mb-16 text-left"
+                >
+                  Below links are closed
+                </div>{" "}
+                <a
+                  href="#"
+                  className="button button-primary m-4 hover:bg-red-700 button-sm"
+                >
+                  Tue (13-08-20)
+                </a>
+                <a
+                  href="#"
+                  className="button button-primary m-4 hover:bg-red-700 button-sm"
+                >
+                  Wed (14-08-20)
+                </a>
+                <a
+                  href="#"
+                  className="button button-primary m-4 hover:bg-red-700 button-sm"
+                >
+                  Thurs (15-08-20)
+                </a>
+                <a
+                  href="#"
+                  className="button button-primary m-4 hover:bg-red-700 button-sm"
+                >
+                  Fri (16-08-20)
+                </a>
+                <Button
+                  onClick={() => setModal2IsOpen(false)}
+                  // href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
+                  className="button button-primary m-4 hover:bg-red-700 button-sm"
+                >
+                  {" "}
+                  &#10094; Back
+                </Button>
+              </div>
             </Modal>
           </div>
         </div>

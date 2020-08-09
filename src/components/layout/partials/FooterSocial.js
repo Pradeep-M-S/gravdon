@@ -20,7 +20,7 @@ const FooterSocial = ({ className, ...props }) => {
         // href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
         className="button button-primary m-4 hover:bg-red-700 button-sm"
       >
-        Book my Slot - Mon (12-08-20)
+        Book my Slot
       </a>
       <Modal
         style={{
@@ -48,51 +48,32 @@ const FooterSocial = ({ className, ...props }) => {
           <b>Details of the Match</b>
         </div>{" "}
         <div
-          style={{ textAlign: "left" }}
+          style={{ textAlign: "left", fontSize: ".7rem" }}
           className="m-0 text-xs mb-16 text-left"
         >
           ✓ Prize will distributed to both teams according to their kills as
           said in the images above .
         </div>{" "}
         <div
-          style={{ textAlign: "left" }}
-          className="m-0 text-xs mb-16 text-left"
-        >
-          ✓ And losing team will also get a free entry in the weekend classic
-          match as a consolation.
-        </div>{" "}
-        <div
-          style={{ textAlign: "left" }}
+          style={{ textAlign: "left", fontSize: ".7rem" }}
           className="m-0 text-xs mb-16 text-left"
         >
           ✓ Your Match timing details will be updated everyday at 5pm
         </div>{" "}
         <div
-          style={{ textAlign: "left" }}
+          style={{ textAlign: "left", fontSize: ".7rem" }}
           className="m-0 text-xs mb-16 text-left"
         >
           ✓ Your Room ID and Password will be given before 5 mins of your Match
-          Time.
+          Time.We can wit a maximum of two minutes and not more than that
         </div>{" "}
         <div
-          style={{ textAlign: "left" }}
-          className="m-0 text-xs mb-16 text-left"
-        >
-          ✓ So join before your time slot, and we can maximum wait for extra 2
-          mins not more than that
-        </div>{" "}
-        <div
-          style={{ textAlign: "left" }}
+          style={{ textAlign: "left", fontSize: ".7rem" }}
           className="m-0 text-xs mb-16 text-left"
         >
           ✓ IF YOUR TEAM CANNOT JOIN WITHIN THE PROVIDED TIME, YOUR TEAM WILL BE
-          DISQUALIFIED AND OPPONENT WINS THE MATCH
-        </div>{" "}
-        <div
-          style={{ textAlign: "left" }}
-          className="m-0 text-xs mb-16 text-left"
-        >
-          ✓ AND YOU WILL NOT BE REFUNDED
+          DIS-QUALIFIED AND OPPONENT WINS THE MATCH ,AND YOU WILL NOT BE
+          REFUNDED
         </div>{" "}
         {/* <div
                     style={{ textAlign: "left" }}
@@ -102,20 +83,59 @@ const FooterSocial = ({ className, ...props }) => {
                     00-20 I ₹65 ₹0 40 20-30 I ₹55 ₹10 40 30-35 I ₹50 ₹15 40 35+
                     I ₹45 ₹20
                   </div>{" "} */}
-        <a
-          href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
-          className="button button-primary m-4 hover:bg-red-700 button-sm"
-        >
-          Register for Mon (12/08/20)
-        </a>
-        <Button
-          onClick={() => setModal2IsOpen(false)}
-          // href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
-          className="button button-primary m-4 hover:bg-red-700 button-sm"
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            placeItems: "center",
+          }}
         >
           {" "}
-          &#10094; Back
-        </Button>
+          <a
+            href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
+            className="button button-primary m-4 hover:bg-red-700 button-sm"
+          >
+            Mon (12-08-20)
+          </a>{" "}
+          <div
+            style={{ textAlign: "center", fontSize: ".9rem" }}
+            className="m-0 text-xs mb-16 text-left"
+          >
+            Below links are closed
+          </div>{" "}
+          <a
+            href="#"
+            className="button button-primary m-4 hover:bg-red-700 button-sm"
+          >
+            Tue (13-08-20)
+          </a>
+          <a
+            href="#"
+            className="button button-primary m-4 hover:bg-red-700 button-sm"
+          >
+            Wed (14-08-20)
+          </a>
+          <a
+            href="#"
+            className="button button-primary m-4 hover:bg-red-700 button-sm"
+          >
+            Thurs (15-08-20)
+          </a>
+          <a
+            href="#"
+            className="button button-primary m-4 hover:bg-red-700 button-sm"
+          >
+            Fri (16-08-20)
+          </a>
+          <Button
+            onClick={() => setModal2IsOpen(false)}
+            // href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
+            className="button button-primary m-4 hover:bg-red-700 button-sm"
+          >
+            {" "}
+            &#10094; Back
+          </Button>
+        </div>
       </Modal>
       <ul className="list-reset">
         <li>
