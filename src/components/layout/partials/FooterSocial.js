@@ -95,7 +95,7 @@ const FooterSocial = ({ className, ...props }) => {
             href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
             className="button button-primary m-4 hover:bg-red-700 button-sm"
           >
-            Mon (12-08-20)
+            Mon (10-08-20)
           </a>{" "}
           <div
             style={{ textAlign: "center", fontSize: ".9rem" }}
@@ -107,25 +107,25 @@ const FooterSocial = ({ className, ...props }) => {
             href="#"
             className="button button-primary m-4 hover:bg-red-700 button-sm"
           >
-            Tue (13-08-20)
+            Tue (11-08-20)
           </a>
           <a
             href="#"
             className="button button-primary m-4 hover:bg-red-700 button-sm"
           >
-            Wed (14-08-20)
+            Wed (12-08-20)
           </a>
           <a
             href="#"
             className="button button-primary m-4 hover:bg-red-700 button-sm"
           >
-            Thurs (15-08-20)
+            Thurs (13-08-20)
           </a>
           <a
             href="#"
             className="button button-primary m-4 hover:bg-red-700 button-sm"
           >
-            Fri (16-08-20)
+            Fri (14-08-20)
           </a>
           <Button
             onClick={() => setModal2IsOpen(false)}
