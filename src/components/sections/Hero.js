@@ -65,18 +65,29 @@ const Hero = ({
             </h2>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
-                Play PUBG and your favourite games and Win Prices daily.
+                We are newly initiated company for PUBG paid tournaments.
               </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="/about">
-                    About us
-                  </Button>
-                  <Button tag="a" color="light" wideMobile href="">
-                    Download Our App{" "}
-                  </Button>
-                </ButtonGroup>
-              </div>
+              <br />
+              <h6 className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
+                1. Single TDM match will be conducted and Teams get prizes
+                distributed accordingly
+              </h6>
+              <h6 className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
+                2.Even if you lose you still get consolation prizes
+              </h6>
+              <h6 className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
+                3. Your Matching system will be based on your information you
+                provide in the Registration form like Exp Level, Evo level..
+              </h6>
+              <h6 className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
+                4.We will verify each and every Pubg account details before
+                allotting a slot for you
+              </h6>
+              <h6 className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
+                5.This whole Process is only for your fair play, so register you
+                details appropriately
+              </h6>
+              <div className="reveal-from-bottom" data-reveal-delay="600"></div>
             </div>
           </div>
           <div

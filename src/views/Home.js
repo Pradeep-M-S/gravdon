@@ -5,11 +5,13 @@ import FeaturesTiles from "../components/sections/FeaturesTiles";
 import FeaturesSplit from "../components/sections/FeaturesSplit";
 import Testimonial from "../components/sections/Testimonial";
 import Cta from "../components/sections/Cta";
+import FeaturesStats from "../components/sections/FeaturesStats";
 
 const Home = () => {
   return (
     <>
       <Hero className="illustration-section-02" />
+      {/* <FeaturesStats /> */}
       {/* <FeaturesTiles />
       <FeaturesSplit
         invertMobile
