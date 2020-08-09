@@ -68,12 +68,7 @@ const FeaturesTiles2 = ({
             <span className="text-color-primary"> Rules</span>
           </h2>
           {/* <SectionHeader data={sectionHeader} className="center-content" /> */}
-          <div
-            style={{ color: "black", textAlign: "center" }}
-            className="m-0 text-sm mb-16 text-left"
-          >
-            &#129300; How to Register
-          </div>
+
           <div
             style={{
               padding: "1rem 1rem",
