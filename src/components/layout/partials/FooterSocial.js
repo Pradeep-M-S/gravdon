@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import classNames from "classnames";
 import Modal from "react-modal";
 import Button from "../../elements/Button";
-
+Modal.setAppElement("#root");
 const FooterSocial = ({ className, ...props }) => {
   const [modal2ISOpen, setModal2IsOpen] = useState(false);
 
@@ -20,7 +20,7 @@ const FooterSocial = ({ className, ...props }) => {
         // href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
         className="button button-primary m-4 hover:bg-red-700 button-sm"
       >
-        Register - Mon (12/08/20)
+        Book my Slot - Mon (12-08-20)
       </a>
       <Modal
         style={{
@@ -35,6 +35,7 @@ const FooterSocial = ({ className, ...props }) => {
             zIndex: "10",
             border: "none",
             borderRadius: "20px",
+            color: "white",
           },
         }}
         isOpen={modal2ISOpen}

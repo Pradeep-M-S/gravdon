@@ -14,14 +14,16 @@ const Home = () => {
       {/* <FeaturesStats /> */}
 
       <FeaturesTiles />
-      {/*<FeaturesSplit
+     
+
+      {/* <FeaturesSplit
         invertMobile
         topDivider
         imageFill
         className="illustration-section-01"
       />
-      <Testimonial topDivider />
-      <Cta split /> */}
+      <Testimonial topDivider /> */}
+      <Cta hasBgColor split />
     </>
   );
 };

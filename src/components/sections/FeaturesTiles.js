@@ -65,8 +65,7 @@ const FeaturesTiles = ({
             className="mt-0 mb-16 reveal-from-bottom"
             data-reveal-delay="200"
           >
-            About
-            <span className="text-color-primary"> Us</span>
+            <span className="text-color-primary"> Features</span>
           </h2>
           {/* <SectionHeader data={sectionHeader} className="center-content" /> */}
           <div className={tilesClasses}>
