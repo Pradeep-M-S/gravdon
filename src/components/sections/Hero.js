@@ -4,8 +4,10 @@ import { SectionProps } from "../../utils/SectionProps";
 import ButtonGroup from "../elements/ButtonGroup";
 import Button from "../elements/Button";
 import Image from "../elements/Image";
-import Modal from "../elements/Modal";
+import Modal from "react-modal";
+import "../../App.css";
 
+Modal.setAppElement("#root");
 const propTypes = {
   ...SectionProps.types,
 };
@@ -25,16 +27,7 @@ const Hero = ({
   ...props
 }) => {
   const [videoModalActive, setVideomodalactive] = useState(false);
-
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  };
-
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  };
+  const [modalISOpen, setModalIsOpen] = useState(false);
 
   const outerClasses = classNames(
     "hero section center-content",
@@ -103,19 +96,98 @@ const Hero = ({
               </div>
               <div
                 style={{ textAlign: "left" }}
-                className="m-0 text-xs mb-16   text-left reveal-from-top"
+                className="m-0 text-xs mb-16 text-left reveal-from-top"
                 data-reveal-delay="800"
               >
                 &#127918; We will verify each and every one of your PUBG account
                 details before allotting a slot for you.
-              </div>
+              </div>{" "}
               <div
                 style={{ textAlign: "left" }}
-                className="text-xs text-left reveal-from-top"
+                className="m-0 text-xs mb-16 text-left reveal-from-top"
+                data-reveal-delay="800"
               >
                 &#127918; This whole Process is only for your fair play, so
                 register you details appropriately.
               </div>
+              <br />
+              <Button
+                onClick={() => setModalIsOpen(true)}
+                className="button button-primary hover:bg-red-700 button-sm"
+              >
+                Register
+              </Button>
+              <Modal
+                style={{
+                  overlay: {
+                    backgroundColor: "#fff",
+                    backdropFilter: "blur(40px)",
+                    zIndex: "10",
+                  },
+                  content: {
+                    backgroundColor: "#151719",
+                    boxShadow: "0 3px 15px black",
+                    zIndex: "10",
+                    border: "none",
+                    borderRadius: "20px",
+                  },
+                }}
+                isOpen={modalISOpen}
+                onRequestClose={() => setModalIsOpen(false)}
+              >
+                <div
+                  style={{ textAlign: "center" }}
+                  className="m-0 text-sm mb-16 text-left reveal-from-top"
+                  data-reveal-delay="800"
+                >
+                  &#129300; How to Register
+                </div>
+                <div
+                  style={{ textAlign: "left" }}
+                  className="m-0 text-xs mb-16 text-left reveal-from-top"
+                  data-reveal-delay="800"
+                >
+                  ⚡ First register through this Link to get verified and get
+                  unique <b>GRAVDON CODE</b> which you can use for any future
+                  GRAVDON Tournaments to Register your squad.
+                </div>
+                <div
+                  style={{ textAlign: "left" }}
+                  className="m-0 text-xs mb-16 text-left reveal-from-top"
+                  data-reveal-delay="800"
+                >
+                  ⚡ Its a <b>ONE TIME</b> registration process, you don't have
+                  to provide your squad details each and every time, we store
+                  your squad information in your <b>UNIQUE CODE</b>.
+                </div>
+                <div
+                  style={{ textAlign: "left" }}
+                  className="m-0 text-xs mb-16 text-left reveal-from-top"
+                  data-reveal-delay="800"
+                >
+                  ⚡ Before clicking the link note down your squad members{" "}
+                  <b>In-Game Name, Exp level and Evo Ground level</b>.
+                </div>
+                <div
+                  style={{ textAlign: "left" }}
+                  className="m-0 text-xs mb-16 text-left reveal-from-top"
+                  data-reveal-delay="800"
+                >
+                  ⚡ First Time Registeration Link is given below .
+                </div>{" "}
+                <a
+                  href="https://surveyheart.com/form/5f2e83d67693da10a21b43ba"
+                  className="button button-primary m-2 hover:bg-red-700 button-sm"
+                >
+                  Click Here
+                </a>
+                <Button
+                  onClick={() => setModalIsOpen(false)}
+                  className="button button-primary  m-4 hover:bg-red-700 button-sm"
+                >
+                  Go Back
+                </Button>
+              </Modal>
               {/* 
               <div
                 style={{ textAlign: "center" }}
@@ -163,7 +235,6 @@ const Hero = ({
                 &#127918; This whole Process is only for your fair play, so
                 register you details appropriately.
               </div> */}
-
               <div className="reveal-from-bottom" data-reveal-delay="600"></div>
             </div>
           </div>
