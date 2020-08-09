@@ -330,7 +330,7 @@ const Hero = ({
             <a>
               <Image
                 className="has-shadow"
-                src={require("./../../assets/images/hero_gif.gif")}
+                src={require("./../../assets/images/example.png")}
                 alt="Hero"
                 width={896}
                 height={504}
