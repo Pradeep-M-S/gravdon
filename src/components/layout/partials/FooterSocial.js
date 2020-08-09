@@ -33,7 +33,7 @@ const FooterSocial = ({ className, ...props }) => {
           </a>
         </li>
         <li>
-          <a href="https://google.com/">
+          <a href="https://www.instagram.com/gravdon_esports/?igshid=kq4ra7lfjrh3">
             <svg
               width="24"
               height="24"
