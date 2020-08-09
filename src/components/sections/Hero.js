@@ -63,30 +63,107 @@ const Hero = ({
               Gravdon
               <span className="text-color-primary"> E-Sports</span>
             </h2>
-            <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
-                We are newly initiated company for PUBG paid tournaments.
+            <div
+              className="container-xs text-left
+            "
+            >
+              <p className="m-0 mb-32  reveal-from-top" data-reveal-delay="800">
+                We are a newly initiated company for PUBG paid tournaments.
               </p>
-              <br />
-              <h6 className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
-                1. Single TDM match will be conducted and Teams get prizes
-                distributed accordingly
-              </h6>
-              <h6 className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
-                2.Even if you lose you still get consolation prizes
-              </h6>
-              <h6 className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
-                3. Your Matching system will be based on your information you
-                provide in the Registration form like Exp Level, Evo level..
-              </h6>
-              <h6 className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
-                4.We will verify each and every Pubg account details before
-                allotting a slot for you
-              </h6>
-              <h6 className="m-0 mb-32 reveal-from-top" data-reveal-delay="800">
-                5.This whole Process is only for your fair play, so register you
-                details appropriately
-              </h6>
+              <div
+                style={{ textAlign: "center" }}
+                className="m-0 text-sm mb-16 text-left reveal-from-top"
+                data-reveal-delay="800"
+              >
+                &#128498; About the tournament
+              </div>
+              <div
+                style={{ textAlign: "left" }}
+                className="m-0 text-xs mb-16 text-left reveal-from-top"
+                data-reveal-delay="800"
+              >
+                &#127918; Single TDM match will be conducted and the teams get
+                prizes distributed accordingly.
+              </div>
+              <div
+                style={{ textAlign: "left" }}
+                className="m-0 text-xs mb-16 text-left reveal-from-top"
+                data-reveal-delay="800"
+              >
+                &#127918; Even if you lose you still get consolation prizes.
+              </div>
+              <div
+                style={{ textAlign: "left" }}
+                className="m-0 text-xs mb-16 text-left reveal-from-top"
+                data-reveal-delay="800"
+              >
+                &#127918; Your match-making system will be based on the
+                information you provide in the registration form like Experience
+                Level, Evo Ground level,etc..
+              </div>
+              <div
+                style={{ textAlign: "left" }}
+                className="m-0 text-xs mb-16   text-left reveal-from-top"
+                data-reveal-delay="800"
+              >
+                &#127918; We will verify each and every one of your PUBG account
+                details before allotting a slot for you.
+              </div>
+              <div
+                style={{ textAlign: "left" }}
+                className="text-xs text-left reveal-from-top"
+              >
+                &#127918; This whole Process is only for your fair play, so
+                register you details appropriately.
+              </div>
+              {/* 
+              <div
+                style={{ textAlign: "center" }}
+                className="m-0 text-sm mb-16 text-left reveal-from-top"
+                data-reveal-delay="800"
+              >
+                &#128498; How to register
+              </div>
+              <div
+                style={{ textAlign: "left" }}
+                className="m-0 text-xs mb-16 text-left reveal-from-top"
+                data-reveal-delay="800"
+              >
+                &#127918; Single TDM match will be conducted and the teams get
+                prizes distributed accordingly.
+              </div>
+              <div
+                style={{ textAlign: "left" }}
+                className="m-0 text-xs mb-16 text-left reveal-from-top"
+                data-reveal-delay="800"
+              >
+                &#127918; Even if you lose you still get consolation prizes.
+              </div>
+              <div
+                style={{ textAlign: "left" }}
+                className="m-0 text-xs mb-16 text-left reveal-from-top"
+                data-reveal-delay="800"
+              >
+                &#127918; Your match-making system will be based on the
+                information you provide in the registration form like Experience
+                Level, Evo Ground level,etc..
+              </div>
+              <div
+                style={{ textAlign: "left" }}
+                className="m-0 text-xs mb-16   text-left reveal-from-top"
+                data-reveal-delay="800"
+              >
+                &#127918; We will verify each and every one of your PUBG account
+                details before allotting a slot for you.
+              </div>
+              <div
+                style={{ textAlign: "left" }}
+                className="text-xs text-left reveal-from-top"
+              >
+                &#127918; This whole Process is only for your fair play, so
+                register you details appropriately.
+              </div> */}
+
               <div className="reveal-from-bottom" data-reveal-delay="600"></div>
             </div>
           </div>
