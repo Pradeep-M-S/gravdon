@@ -212,6 +212,12 @@ const Hero = ({
                     style={{ textAlign: "left" }}
                     className="m-0 text-xs mb-16 text-left"
                   >
+                    ⚡ ENTRY FEE - ₹10 per player
+                  </div>{" "}
+                  <div
+                    style={{ textAlign: "left" }}
+                    className="m-0 text-xs mb-16 text-left"
+                  >
                     ⚡ You can win upto <b>₹65</b>
                   </div>{" "}
                   <div
@@ -249,6 +255,14 @@ const Hero = ({
                   >
                     Register for Mon (12/08/20)
                   </a>
+                  <Button
+                    onClick={() => setModal2IsOpen(false)}
+                    // href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
+                    className="button button-primary m-4 hover:bg-red-700 button-sm"
+                  >
+                    {" "}
+                    &#10094; Back
+                  </Button>
                 </Modal>
               </Modal>
               {/* 
