@@ -69,7 +69,7 @@ const Hero = ({
                 className="m-0 text-sm mb-16 text-left reveal-from-top"
                 data-reveal-delay="800"
               >
-                ⚡ About the tournament
+                ⚡ We are currently conducting TDM matches , details are below.
               </div>
               <div
                 style={{ textAlign: "left" }}
