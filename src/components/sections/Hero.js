@@ -109,7 +109,7 @@ const Hero = ({
                 data-reveal-delay="800"
               >
                 &#127918; This whole Process is only for your fair play, so
-                register you details appropriately.
+                register your details appropriately.
               </div>
               <br />
               <Button
@@ -175,7 +175,7 @@ const Hero = ({
                   href="https://surveyheart.com/form/5f2e83d67693da10a21b43ba"
                   className="button button-primary m-4 hover:bg-red-700 button-sm"
                 >
-                  Register My Squad
+                  Register My Squad ( First Time )
                 </a>
                 <a
                   onClick={() => setModal2IsOpen(true)}
@@ -184,6 +184,13 @@ const Hero = ({
                 >
                   Register - Mon (12/08/20)
                 </a>
+                <Button
+                  className="button button-primary m-4 hover:bg-red-700 button-sm"
+                  onClick={() => setModalIsOpen(false)}
+                >
+                  {" "}
+                  &#10094; Back
+                </Button>
                 <Modal
                   style={{
                     overlay: {
