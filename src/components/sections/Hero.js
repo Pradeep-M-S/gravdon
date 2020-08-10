@@ -319,7 +319,7 @@ const Hero = ({
                   className="m-0 text-xs mb-16 text-left"
                 >
                   Below links are closed
-                </div>{" "}
+                </div>{" "} 
                 <a
                   href="#"
                   className="button button-primary m-4 hover:bg-red-700 button-sm"

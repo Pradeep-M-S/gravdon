@@ -143,7 +143,7 @@ const FeaturesTiles = ({
                     the below links to get our{" "}
                     <b>
                       <a
-                        style={{ color: "blue" }}
+                        style={{ color: "#25D366" }}
                         href="https://chat.whatsapp.com/DcuLcizeunnJDYA0vXhYOQ"
                       >
                         Whatsapp
