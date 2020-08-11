@@ -314,18 +314,18 @@ const Hero = ({
                 >
                   Tue (11-08-20)
                 </a>
+                <a
+                  href="https://forms.app/form/5f1d86ecd5a6ad5d3baf1a09"
+                  className="button button-primary m-4 hover:bg-red-700 button-sm"
+                >
+                  Wed (12-08-20)
+                </a>{" "}
                 <div
                   style={{ textAlign: "center", fontSize: ".9rem" }}
                   className="m-0 text-xs mb-16 text-left"
                 >
                   Below links are closed
-                </div>{" "} 
-                <a
-                  href="#"
-                  className="button button-primary m-4 hover:bg-red-700 button-sm"
-                >
-                  Wed (12-08-20)
-                </a>
+                </div>{" "}
                 <a
                   href="#"
                   className="button button-primary m-4 hover:bg-red-700 button-sm"
