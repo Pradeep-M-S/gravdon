@@ -306,19 +306,19 @@ const Hero = ({
                   href="https://forms.app/form/5f1d87083f6ac6335302e4f3"
                   className="button button-primary m-4 hover:bg-red-700 button-sm"
                 >
-                  Mon (10-08-20)
+                  Mon 
                 </a>{" "}
                 <a
                   href="https://forms.app/form/5f1d86f6698fb70d8d66afad"
                   className="button button-primary m-4 hover:bg-red-700 button-sm"
                 >
-                  Tue (11-08-20)
+                  Tue 
                 </a>
                 <a
                   href="https://forms.app/form/5f1d86ecd5a6ad5d3baf1a09"
                   className="button button-primary m-4 hover:bg-red-700 button-sm"
                 >
-                  Wed (12-08-20)
+                  Wed 
                 </a>{" "}
                 <div
                   style={{ textAlign: "center", fontSize: ".9rem" }}
@@ -330,13 +330,13 @@ const Hero = ({
                   href="#"
                   className="button button-primary m-4 hover:bg-red-700 button-sm"
                 >
-                  Thurs (13-08-20)
+                  Thurs 
                 </a>
                 <a
                   href="#"
                   className="button button-primary m-4 hover:bg-red-700 button-sm"
                 >
-                  Fri (14-08-20)
+                  Fri 
                 </a>
                 <Button
                   onClick={() => setModal2IsOpen(false)}

@@ -110,23 +110,16 @@ const Header = ({
                       "list-reset text-xs",
                       navPosition && `header-nav-${navPosition}`
                     )}
-                  >
-                    <li>
-                      <Link to="#0" onClick={closeMenu}>
-                        About
-                      </Link>
-                    </li>
-                  </ul>
+                  ></ul>
                   {!hideSignin && (
                     <ul className="list-reset header-nav-right">
                       <li>
-                        <Link
-                          to="#0"
+                        <a
                           className="button button-primary button-wide-mobile button-sm"
-                          onClick={closeMenu}
+                          href="https://chat.whatsapp.com/DcuLcizeunnJDYA0vXhYOQ"
                         >
                           Contact
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   )}
